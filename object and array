@@ -1,0 +1,65 @@
+
+const student = ['shiba','nondo','ariyan','parasitamal'];
+
+// console.log(student[2]);
+ const myObject = {
+    name: 'shiba',
+    id : 112,
+    className: 'Honours 1st year'
+ }
+
+ function myfunction (anyObject){
+    console.log(`my name is ${anyObject.name} and i am a student of ${anyObject.class_Name}`);
+ }
+//  myfunction(myObject);
+myfunction({
+    name: 'shibanondo das',
+    roll: 2244,
+    class_Name : "Honours"
+});
+
+ function myfunction2 (anyArray) {
+    console.log(`${anyArray[3]}is a friend of ${anyArray[2]}`);
+ }
+//  myfunction2(student);
+myfunction2([
+    'shibanondo',
+    'ariyan khan',
+    'mr. parasitamol',
+    'kader molla'
+])const student = ['shiba','nondo','ariyan','parasitamal'];
+
+// console.log(student[2]);
+ const myObject = {
+    name: 'shiba',
+    id : 112,
+    className: 'Honours 1st year'
+ }
+
+ function myfunction (anyObject){
+    console.log(`my name is ${anyObject.name} and i am a student of ${anyObject.class_Name}`);
+ }
+//  myfunction(myObject);
+myfunction({
+    name: 'shibanondo das',
+    roll: 2244,
+    class_Name : "Honours"
+});
+
+ function myfunction2 (anyArray) {
+    console.log(`${anyArray[3]}is a friend of ${anyArray[2]}`);
+ }
+//  myfunction2(student);
+myfunction2([
+    'shibanondo',
+    'ariyan khan',
+    'mr. parasitamol',
+    'kader molla'
+])
+
+
+const myNums  = [1,2,3,4,5,6,7,8,9,10];
+
+ const newNums= myNums.filter( (number) =>  number > 4);
+
+console.log(newNums);
